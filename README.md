@@ -19,10 +19,11 @@ This repository serves as the submission for the Machine Learning practical work
 ## 📂 Projects 
 
 Here are the completed practical works (up to 3 for now) with links to their respective tags:
-1. [TP0: Python for ML introduction](#https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp0) - Introduction to Machine Learning.
-2. [TP1: Linear and polynomial regression](#https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp1) - Exploring polynomial and linear regressions.
-3. [TP3: KNN](#https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp2) - Classification and regressions using KNN.
-4. *Many more pratical works will come in the future.*
+1. [TP0: Python for ML introduction](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp0) - Introduction to Machine Learning.
+2. [TP1: Linear and polynomial regression](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp1) - Exploring polynomial and linear regressions.
+3. [TP2: KNN](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp2) - Classification and regressions using KNN.
+4. [TP3: K-means](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/) - *Coming soon.*
+5. *Many more pratical works will come in the future.*
 
 ------------
 
@@ -55,14 +56,14 @@ We use both Jupyter Notebook and Visual Studio Code for coding, analysis, and re
 - [📓 Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
 - [🐍 Python 3](https://docs.python.org/3/)
 - 🌐 Python Virtual Environment
-- [📦 List of Dependencies](.requirements) - See [Pip](https://pip.pypa.io/en/stable/) for package management.
+- [📦 List of Dependencies](requirements.txt) - See [Pip](https://pip.pypa.io/en/stable/) for package management.
 
 
 ------------
 
 ## 📦 Dependencies 
 
-The list of dependencies can be found in the [.requirements.txt](.requirements.txt) file in the repository. Please refer to [Pip](https://pip.pypa.io/en/stable/) for installing these dependencies.
+The list of dependencies can be found in the [requirements.txt](requirements.txt) file in the repository. Please refer to [Pip](https://pip.pypa.io/en/stable/) for installing these dependencies.
 
 ------------
 
@@ -102,10 +103,10 @@ To get started with this repository, follow these steps:
     python -m ensurepip --default-pip
     ```
 
-5. Install the project dependencies from the `.requirements.txt` file located at the root of the repository:
+5. Install the project dependencies from the `requirements.txt` file located at the root of the repository:
 
     ```bash
-    pip install -r .requirements.txt
+    pip install -r requirements.txt
     ```
 
 6. You can now navigate to the folder corresponding to the desired TP (e.g., TP0, TP1, TP2, etc.) within the repository and open the Jupyter Notebook files using your preferred code editor like Visual Studio Code or Jupyter Notebook.
@@ -125,6 +126,6 @@ More will come here soon. 🚀
 👨‍🏫 **Jérémy TREMBLAY**
 
 * Github: [@JeremyTremblay2](https://github.com/JeremyTremblay2)
-* LinkedIn: [@Jérémy Tremlay](https://fr.linkedin.com/in/j%C3%A9r%C3%A9my-tremblay2)
+* LinkedIn: [@Jérémy Tremblay](https://fr.linkedin.com/in/jeremy-tremblay)
 
 > Repository created as part of the *Machine Learning* course of the **I2L Master** and intended for evaluation by **M. Jérôme Buisine**. The contents of the practical work come from his courses, [more information](https://jeromebuisine.fr/).
