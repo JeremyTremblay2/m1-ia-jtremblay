@@ -1,92 +1,130 @@
-# M1-IA-jtremblay
+# 🎓 M1 IA jtremblay Repository 
+
+This repository serves as the submission for the Machine Learning practical works within the **Master 1 I2L** program. We explore various aspects of machine learning using **Python**, including classification, regression, neural networks, and more.
+
+------------
+
+## 📚 Table of Contents 
+
+- [📂 Projects](#📂-projects) 
+- [🛠️ Technical Stack](#🛠️-technical-stack) 
+- [💻 Work Environment](#💻-work-environment) 
+- [📦 Dependencies](#📦-dependencies) 
+- [🏁 Getting Started](#🏁-getting-started)
+- [✨ Additional Sections](#✨-additional-sections) 
+- [👨‍🏫 Authors](#👨‍🏫-authors) 
+
+------------
+
+## 📂 Projects 
+
+Here are the completed practical works (up to 3 for now) with links to their respective tags:
+1. [TP0: Python for ML introduction](#https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp0) - Introduction to Machine Learning.
+2. [TP1: Linear and polynomial regression](#https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp1) - Exploring polynomial and linear regressions.
+3. [TP3: KNN](#https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp2) - Classification and regressions using KNN.
+4. *Many more pratical works will come in the future.*
+
+------------
+
+## 🛠️ Technical Stack 
+
+### 🧰 Tools and technologies
+
+The repository primarily utilizes Python. Here's a list of the key technologies used with links to their documentation:
+
+- 🐍 [Python](https://www.python.org/doc/) - The primary programming language.
+- 📔 [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/) - Interactive computing and report generation.
+- 💻 [Visual Studio Code](https://code.visualstudio.com/docs) - An integrated development environment.
+
+### 📚 Libraries and frameworks
+
+With these tools we also use a lot of libraries to properly work with machine learning. Here are some libraries used in this repository:
+
+- 🧠 [scikit-learn](https://scikit-learn.org/stable/documentation.html) - For machine learning and data analysis.
+- 🔢 [NumPy](https://numpy.org/doc/) - For numerical computations.
+- 🐼 [Pandas](https://pandas.pydata.org/docs/) - For data manipulation and analysis.
+- 📊 [Matplotlib](https://matplotlib.org/stable/contents.html) - For data visualization.
+- 🚀 [TensorFlow](https://www.tensorflow.org/guide) - An open-source machine learning framework.
+
+------------
+
+## 💻 Work Environment
+
+We use both Jupyter Notebook and Visual Studio Code for coding, analysis, and report generation. Our environment includes:
+
+- [📓 Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
+- [🐍 Python 3](https://docs.python.org/3/)
+- 🌐 Python Virtual Environment
+- [📦 List of Dependencies](.requirements) - See [Pip](https://pip.pypa.io/en/stable/) for package management.
 
 
+------------
 
-## Getting started
+## 📦 Dependencies 
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+The list of dependencies can be found in the [.requirements.txt](.requirements.txt) file in the repository. Please refer to [Pip](https://pip.pypa.io/en/stable/) for installing these dependencies.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+------------
 
-## Add your files
+## 🏁 Getting Started
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+To get started with this repository, follow these steps:
 
-```
-cd existing_repo
-git remote add origin https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay.git
-git branch -M main
-git push -uf origin main
-```
+1. Clone the repository to your local machine:
+   
+    ```bash
+    git clone https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay.git
+    ```
 
-## Integrate with your tools
+2. Create a Python virtual environment (Python 3 is assumed to be installed):
 
-- [ ] [Set up project integrations](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/settings/integrations)
+    ```bash
+    python3 -m venv myenv
+    ```
 
-## Collaborate with your team
+3. Activate the virtual environment:
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+    - On Windows (using Command Prompt):
 
-## Test and Deploy
+    ```bash
+    myenv\Scripts\activate
+    ```
 
-Use the built-in continuous integration in GitLab.
+    - On macOS and Linux:
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+    ```bash
+    source myenv/bin/activate
+    ```
 
-***
+4. Install pip (if not already installed):
 
-# Editing this README
+    ```bash
+    python -m ensurepip --default-pip
+    ```
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+5. Install the project dependencies from the `.requirements.txt` file located at the root of the repository:
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+    ```bash
+    pip install -r .requirements.txt
+    ```
 
-## Name
-Choose a self-explaining name for your project.
+6. You can now navigate to the folder corresponding to the desired TP (e.g., TP0, TP1, TP2, etc.) within the repository and open the Jupyter Notebook files using your preferred code editor like Visual Studio Code or Jupyter Notebook.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+This will set up your local environment with the necessary dependencies and tools to run the notebooks for different TPs.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+------------
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+## ✨ Additional Sections 
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+More will come here soon. 🚀
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+------------
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+## 👨‍🏫 Authors 
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+👨‍🏫 **Jérémy TREMBLAY**
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+* Github: [@JeremyTremblay2](https://github.com/JeremyTremblay2)
+* LinkedIn: [@Jérémy Tremlay](https://fr.linkedin.com/in/j%C3%A9r%C3%A9my-tremblay2)
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+> Repository created as part of the *Machine Learning* course of the **I2L Master** and intended for evaluation by **M. Jérôme Buisine**. The contents of the practical work come from his courses, [more information](https://jeromebuisine.fr/).
