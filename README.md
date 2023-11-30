@@ -22,8 +22,8 @@ Here are the completed practical works (up to 3 for now) with links to their res
 1. [TP0: Python for ML introduction](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp0) - Introduction to Machine Learning.
 2. [TP1: Linear and polynomial regression](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp1) - Exploring polynomial and linear regressions.
 3. [TP2: KNN](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp2) - Classification and regressions using KNN.
-4. [TP3: K-means](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp3) - use and understand the K-means algorithms 
-5. [TP4: Upper Confidence Bound](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp4) *Coming soon.*
+4. [TP3: K-means](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp3) - Use and understand the K-means algorithms 
+5. [TP4: Upper Confidence Bound](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp4) Create and use UCB agents.
 6. [TP5: Q-learning](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp5) *Coming soon.*
 7. [TP6: Neural Networks](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp6) *Coming soon.*
 8. [TP7: Convolutional Neural Network](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp7) *Coming soon.*
