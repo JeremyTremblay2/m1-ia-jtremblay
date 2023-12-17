@@ -25,12 +25,16 @@ Here are the completed practical works (up to 3 for now) with links to their res
 4. [TP3: K-means](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp3) - Use and understand the K-means algorithms.
 5. [TP4: Upper Confidence Bound](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp4) Create and use UCB agents.
 6. [TP5: Q-learning](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp5) Creation of a Q-learning algorithm for a game.
-7. [TP6: Neural Networks](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp6) *Coming soon.*
+7. [TP6: Neural Networks](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp6) Creation of MLP algorithms and gradient descents.
 8. [TP7: Convolutional Neural Network](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/tp7) *Coming soon.*
 9. *Many more pratical works will come in the future.*
 
 Here are the directed works:  
 1. [TD1: Decision Tree](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/td1) - Classification and regression using Decision Trees.
+
+Projects:
+1. [Supervised Learning](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/project1) - Project concerning a classification problem.
+1. [Advanced ML problem](https://gitlab.dpt-info.univ-littoral.fr/tremblay.jeremy/m1-ia-jtremblay/-/tree/project2) - *Coming soon.*
 
 ------------
 
